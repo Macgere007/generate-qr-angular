@@ -1,0 +1,15 @@
+<a [href]="href"  
+(click)="generateQRCode()" 
+download >
+<button>Generate QR
+<ngx-qrcode 
+*ngIf="display"
+[value] = "value"
+>
+</ngx-qrcode>
+</button>
+</a>
+
+
+
+  
